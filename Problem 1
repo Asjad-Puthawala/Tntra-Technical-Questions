@@ -1,0 +1,18 @@
+#Problem 1
+def count(input_string, char):
+    count = 0
+    for i in input_string:
+        if i == char:
+            count += 1
+    return count
+
+
+str1= "geeksforgeeks"
+char1 = 'e'
+result1 = count(str1, char1)
+print(f"Count character '{char1}' in the input '{str1}': {result1}")
+
+str2 = "abccdefgaa"
+char2 = 'a'
+result2 = count(input_str2, char2)
+print(f"Count character '{char2}' in the input '{str2}': {result2}")
