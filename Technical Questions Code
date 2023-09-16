@@ -1,0 +1,14 @@
+#Problem 2
+def palindrome(string):
+    string = string.replace(" ", "").lower()
+    reversed_string = string[::-1]
+    return string == reversed_string
+
+
+input_str1 = "anna"
+result1 = palindrome(input_str1)
+print(f"Is '{str1}' a palindrome? :{result1}")
+
+str2 = "India"
+result2 = palindrome(input_str2)
+print(f"Is '{str2}' a palindrome? :{result2}")
